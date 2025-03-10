@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+
+body {
+    font-family: "Tektur", sans-serif;
+    background-color: #222;
+    margin: 0;
+    padding: 0;
+    color: #f0f0f0;
+}
+
+/* Хедер */
+header {
+    background: url('https://wallpapercave.com/wp/wp5236467.jpg') no-repeat center;
+    background-size: cover;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 10px black;
+}
+header h1{
+    background-color: #444; 
+    padding: 10px;
+    
+}
+
+h1 , h2 {
+    text-align: center;
+}
+
+/* Навігація */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff9800;
+}
+
+/* Головний розділ */
+.home-content {
+    text-align: center;
+    padding: 30px;
+}
+
+.leon-gif {
+    width: 250px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Види графіті */
+.graffiti-types {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.type {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.type img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Галерея */
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
+}
+
+/* Футер */
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-links img {
+    width: 30px;
+    margin: 5px;
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.7;
+}
